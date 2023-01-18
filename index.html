@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Maiúsculas e Minúsculas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4c666ed8da.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="header">
+
+        <h1><span>Conversor de Texto para </span>Maiúsculas e Minúsculas</h1>
+        <p>
+            Quer converter de maiúscula para minúscula, ou de minúscula para maiúscula? Basta
+            digitar a frase, e depois clicar nos botões abaixo:
+        </p>
+
+    </div>
+
+    <div class="navigation">
+        <button id="copy" class="navigationButton"><i class="fa-solid fa-copy"></i></button>
+
+        <button id="undo" class="navigationButton backupButton"><i class="fa-solid fa-arrow-rotate-left"></i></button>
+        <button id="redo" class="navigationButton backupButton"><i class="fa-solid fa-arrow-rotate-right"></i></button>
+    </div>
+
+    <textarea id="text" placeholder="Escreva seu texto aqui"></textarea>
+
+    <div class="tools">
+        <button class="toolsButton cvtButton" id="cvtToUpperCase">MAIÚSCULAS</button>
+        <button class="toolsButton cvtButton" id="cvtToLowerCase">minúsculas</button>
+        <button class="toolsButton cvtButton" id="cvtToAlternated">AlTeRnAdO</button>
+        <button class="toolsButton cvtButton" id="cvtToInverted">Invertido</button>
+        <button class="toolsButton cvtButton" id="cvtToUp1stLetterWord">Primeira Letra Palavra</button>
+        <button class="toolsButton cvtButton" id="cvtToUp1stLetterPhrase">Primeira letra frase</button>
+        <button class="toolsButton cvtButton" id="cvtToCamelCase">camelCase</button>
+    </div>
+
+
+    <div class="filter">
+
+        <p class="filterHeader">Opções para Primeira Letra Palavra:</p>
+        <p>Ignorar as palavras</p>
+        <textarea id="filterInput">a, o, as, os, de, dos, das, do, da, e, ou, para, por, no, na, nos, nas</textarea>
+
+    </div>
+
+
+
+    <footer>
+        <p>2023 Vinícius Ponte</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

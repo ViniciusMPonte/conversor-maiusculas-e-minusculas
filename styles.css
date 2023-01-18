@@ -1,0 +1,212 @@
+/* PRESETS */
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    padding: 1% 18%;
+    font-family: 'Raleway', sans-serif;
+    background-color: #c5d1b7;
+    color: #253d35;
+    margin: 0;
+}
+
+
+
+/* SECTIONS */
+.header h1 {
+    font-size: 2rem;
+}
+
+.header p {
+    text-align: justify;
+    font-size: 1rem;
+}
+
+
+.navigation {
+    text-align: right;
+}
+
+
+
+.tools {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.filterHeader {
+ font-weight: bold;
+}
+
+.filter p {
+    margin: 0;
+}
+
+
+
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    font-size: 1rem;
+    background-color: #253d35;
+    color: #a6bb8d;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+
+
+/* TEXT AREA */
+#text,
+#filterInput {
+    background-color: #f9f9f9;
+    color: #333333;
+    margin: 10px 0;
+    padding: 1%;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    outline: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.4;
+    width: 97.875%;
+    height: 250px;
+    transition: all 0.2s;
+    resize: none;
+}
+
+#text::placeholder {
+    color: #999999;
+}
+
+#text:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+#text:focus {
+    cursor: text;
+    color: #333333;
+    background-color: white;
+    border-color: #A6BB8D;
+}
+
+#filterInput {
+    height: 25px;
+}
+
+#filterInput:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+#filterInput:focus {
+    cursor: text;
+    color: #333333;
+    background-color: white;
+    border-color: #A6BB8D;
+}
+
+
+/* BUTTONS */
+.toolsButton {
+    box-shadow: 1px 2px 0px 0px #3c6255;
+    background-color: #a6bb8d;
+    border-radius: 3px;
+    border: 1px solid #3c6255;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 3px 5px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #3c6255;
+    margin: 7px 2px 0;
+    padding: 5px 12px;
+}
+
+.toolsButton:hover {
+    background-color: #61876e;
+
+}
+
+.toolsButton:active {
+    position: relative;
+    top: 1px;
+}
+
+
+
+.navigationButton {
+
+    box-shadow: 1px 2px 0px 0px #3c6255;
+    background-color: #a6bb8d;
+    border-radius: 100%;
+    border: 1px solid #3c6255;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 17px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #3c6255;
+    margin: 2px;
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+
+}
+
+.navigationButton:hover {
+    background-color: #61876e;
+
+}
+
+.navigationButton:active {
+    position: relative;
+    top: 1px;
+}
+
+
+
+/* RESPONSIVE MODIFICATIONS */
+
+
+@media (max-width: 616px) {
+
+    body {
+        padding: 1% 15%;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .header h1 span {
+        font-size: 1.2rem;
+        display: block;
+    }
+
+    .tools {
+        margin-bottom: 40px;
+    }
+
+    .toolsButton {
+        display: block;
+        width: 100%;
+    }
+
+    .filter {
+        font-size: 1.1rem;
+    }
+}
