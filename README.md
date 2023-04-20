@@ -21,3 +21,7 @@ Para utilizar o conversor, basta digitar o texto desejado na caixa de texto e cl
 - **camelCase**: converte o texto para camelCase.
 
 Ao clicar em uma das opções, o texto será convertido e o resultado aparecerá na caixa de texto. Além disso, a ferramenta de Histórico de edições registrará a alteração, permitindo que o usuário desfaça ou refaça a mudança. Também é possível copiar o texto resultante clicando no botão "Copiar".
+
+### Filtro para Ignorar Palavras
+
+A ferramenta de conversão da **Primeira letra de cada palavra em maiúscula** inclui um filtro que permite ao usuário definir palavras que devem ser ignoradas. Isso é feito por meio de um campo de entrada de texto na tela, onde o usuário pode digitar uma lista de palavras a serem ignoradas, separadas por vírgulas. As palavras definidas pelo usuário são ignoradas pelo conversor e não têm sua primeira letra convertida para maiúscula.
