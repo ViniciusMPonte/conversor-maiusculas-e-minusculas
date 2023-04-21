@@ -25,3 +25,9 @@ Ao clicar em uma das opções, o texto será convertido e o resultado aparecerá
 ### Filtro para Ignorar Palavras
 
 A ferramenta de conversão da **Primeira letra de cada palavra em maiúscula** inclui um filtro que permite ao usuário definir palavras que devem ser ignoradas. Isso é feito por meio de um campo de entrada de texto na tela, onde o usuário pode digitar uma lista de palavras a serem ignoradas, separadas por vírgulas. As palavras definidas pelo usuário são ignoradas pelo conversor e não têm sua primeira letra convertida para maiúscula.
+
+## Contato
+
+- LinkedIn: https://www.linkedin.com/in/viniciusmponte/
+- E-mail: vinicius.mponte@gmail.com
+- Portfólio: https://viniciusmponte.github.io/portfolio/
