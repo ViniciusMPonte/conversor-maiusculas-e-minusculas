@@ -1,8 +1,12 @@
 # Conversor de Texto para Maiúsculas e Minúsculas
 
-Este é um conversor de texto para maiúsculas e minúsculas desenvolvido por Vinícius Ponte. O projeto pode ser encontrado no link https://viniciusmponte.github.io/conversor-maiusculas-e-minusculas/.
+Este é um conversor de texto. O objetivo deste projeto é converter um texto em diferentes formatos de letras, como maiúsculas, minúsculas, camelCase, entre outros. Para isso, são utilizadas expressões regulares no JavaScript para transformar o texto de acordo com a opção escolhida.
 
-O objetivo deste projeto é converter um texto em diferentes formatos de letras, como maiúsculas, minúsculas, camelCase, entre outros. Para isso, são utilizadas expressões regulares no JavaScript para transformar o texto de acordo com a opção escolhida.
+O projeto pode ser encontrado no link https://viniciusmponte.github.io/conversor-maiusculas-e-minusculas/.
+
+### Screenshot
+
+<img src="https://raw.githubusercontent.com/ViniciusMPonte/portfolio/main/images/conversor-de-texto.png" style="width: 500px; height: auto;">
 
 ### Histórico de edições
 
